@@ -168,13 +168,7 @@ function update(){
 }
 
 window.onresize = function(){
-    // wszystko
-    obj.x *= s.w() / oldW;
-    obj.y *= s.h() / oldH;
-    // ...
-
-    oldW = s.w();
-    oldH = s.h();
+    /* kod */
 }
 
 function randomNum(min, max){
